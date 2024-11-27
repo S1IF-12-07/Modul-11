@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 	var angka int
-	fmt.Print("masukkan angka : ")
+	fmt.Print(" angka : ")
 	fmt.Scan(&angka)
 
 	bagi := angka % 10 == 0 && angka > 10
